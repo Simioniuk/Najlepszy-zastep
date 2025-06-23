@@ -2,7 +2,7 @@ const images = [
   "images/harce.jpg",
   "images/portretowe.jpg",
   "images/lew.png",
-  "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/nigga.jpg?v=1743278874203"
+  "images/jarmark.jpg"
 ];
 
 let current = 0;
