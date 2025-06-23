@@ -1,5 +1,5 @@
 const images = [
-  "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/Zdj%C4%99cie%20WhatsApp%202025-03-29%20o%2010.13.22_35a24315.jpg?v=1743239681012",
+  "images/harce.jpg",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/Zdj%C4%99cie%20WhatsApp%202025-03-08%20o%2011.02.16_e4a2ec16.jpg?v=1743340165966",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/DSC_0971.jpg?v=1747066502559",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/nigga.jpg?v=1743278874203"
@@ -69,7 +69,7 @@ let currentIndex = 0;
 });
 
 function DoStronyGlownej() {
-  window.location.replace("https://najlepszy-zastep-na-pomorzu.glitch.me");
+  window.location.replace("https://najlepszy-zastep.netlify.app");
 };
 
 
