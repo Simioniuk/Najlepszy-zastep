@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/symbol.png?v=1743239469975"
+    />
+    <title>🦅Orły🦅 - Harce</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="bg-image" id="bg1"></div>
+      <div class="bg-image" id="bg2"></div>
+      <div class="content">
+        <div class="header-box">
+          <h1>Najlepszy Zastęp Na Pomorzu</h1>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Strona główna</a></li>
+          <li><a href="#">O nas</a></li>
+          <li><a href="#">Usługi</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="podheader">
+      <a href="https://www.facebook.com/HarceSwJerzego">Harce Św. Jerzego</a>
+    </h1>
+    <section class="containerHAR">
+      <div class="blockHAR">
+        <div class="headerHAR">
+          <div>
+            <strong>Harce Tegoroczne</strong><br />
+            <small>09.05.2025</small>
+          </div>
+          <button onclick="toggleDetails(this)">Szczegóły</button>
+        </div>
+        <div class="detailsHAR">
+          <strong>MIEJSCE: IV</strong>
+          <span>Zdobyliśmy: 290,6 pkt</span>
+          <p>
+            Staliśmy się IV najlepszym zastępem na Pomorzu. Oraz zajeliśmy I
+            miejsce w grach terenowych
+          </p>
+          <img
+            src="https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/DSC_0971.jpg?v=1747066502559"
+            alt="Obrazek 1"
+          />
+        </div>
+      </div>
+
+      <!-- Blok 2 -->
+      <div class="blockHAR">
+        <div class="headerHAR">
+          <div>
+            <strong>Harce Zeszłoroczne</strong><br />
+            <small>09.05.2024</small>
+          </div>
+          <button onclick="toggleDetails(this)">Szczegóły</button>
+        </div>
+        <div class="detailsHAR">
+          <strong>MIEJSCE: I</strong>
+          <span>Zdobyliśmy: najwięcej punktów</span>
+          <p>
+            Zajeliśmy I miejsce, odebraliśmy włócznie Św. Jerzego, i staliśmy
+            się NAJLEPSZYM zastępem na pomorzu
+          </p>
+          <img
+            src="https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/Zdj%C4%99cie%20WhatsApp%202025-03-29%20o%2010.13.22_35a24315.jpg?v=1743239681012"
+            alt="Obrazek 2"
+          />
+        </div>
+      </div>
+      <style>
+        .containerHAR {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          color: white;
+        }
+
+        .blockHAR {
+          padding: 15px;
+          border-radius: 10px;
+          background-color: #16a085;
+          display: flex;
+          flex-direction: column;
+          max-width: 700px;
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .headerHAR {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .detailsHAR {
+          display: none;
+          margin-top: 15px;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .detailsHAR img {
+          max-width: 100%;
+          border-radius: 8px;
+        }
+
+        button {
+          padding: 8px 12px;
+          border: none;
+          border-radius: 6px;
+          background-color: #007bff;
+          color: white;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #0056b3;
+        }
+
+        .DoStrony {
+          background: rgba(255, 255, 255, 0.2);
+          border: 2px solid rgba(255, 255, 255, 0.5);
+          color: white;
+          padding: 12px 24px;
+          font-size: 16px;
+          border-radius: 10px;
+          backdrop-filter: blur(10px);
+          cursor: pointer;
+          transition: all 0.3s;
+          
+          max-width: 340px;
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .DoStrony:hover {
+          background: rgba(255, 255, 255, 0.3);
+          border-color: rgba(255, 255, 255, 0.8);
+        }
+      </style>
+      <button onclick="DoStronyGlownej()" class="DoStrony">
+        Powrót Do Strony Głównej
+      </button>
+    </section>
+
+    <footer>
+      <p>© 2025 Najlepszy Zastęp Harcerski na Pomorzu</p>
+      <p>Wygraliśmy harce w 2024</p>
+      <p>JESTEŚMY LEPSI OD PARÓWEK SOKOLIKÓW</p>
+    </footer>
+  </body>
+</html>
