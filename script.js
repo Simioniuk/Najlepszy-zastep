@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function Simioniuk() {
-   window.location.replace("https://najlepszy-zastep-na-pomorzu.glitch.me/Simioniuk.html");
+   window.location.replace("https://najlepszy-zastep.netlify.app/simioniuk.html");
 }
 
 function toggleDetails(button) {
