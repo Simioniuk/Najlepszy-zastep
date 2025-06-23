@@ -1,6 +1,6 @@
 const images = [
   "images/harce.jpg",
-  "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/Zdj%C4%99cie%20WhatsApp%202025-03-08%20o%2011.02.16_e4a2ec16.jpg?v=1743340165966",
+  "images/portretowe.jpg",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/DSC_0971.jpg?v=1747066502559",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/nigga.jpg?v=1743278874203"
 ];
