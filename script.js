@@ -1,7 +1,7 @@
 const images = [
   "images/harce.jpg",
   "images/portretowe.jpg",
-  "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/DSC_0971.jpg?v=1747066502559",
+  "images/lew.png",
   "https://cdn.glitch.global/7c050cab-9139-4bbf-912c-70e06a166d5f/nigga.jpg?v=1743278874203"
 ];
 
